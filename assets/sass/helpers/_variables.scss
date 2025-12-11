@@ -1,0 +1,45 @@
+/*---------------------------
+	Fonts
+----------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+@font-face {
+	font-family: 'Felidae';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Felidae Regular'),
+		url('../fonts/felidae-regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Felidae';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Felidae Regular'),
+		url('../fonts/felidae-regular.woff2') format('woff2');
+}
+
+// fonts
+$base-font-size: 18;
+$base-font: "DM Sans";
+$heading-font: "Felidae";
+
+
+// color
+$dark-gray: #444444; //
+$body-color: #041117;
+$white: #fff; //
+$light: #8188a9;
+$black: #000; //
+$small-black: #F4F6F8; //
+
+$theme-primary-color: #B59E9C; //
+$theme-primary-color-s2: #F8F1F1; //
+$theme-primary-hover-color: #966a65; //
+$body-bg-color: #fff; //
+$section-bg-color: #F2F2F2; //
+$text-color: #333; //
+$text-light-color: #676767;
+$heading-color: #000; //
+$border-color: #dedede; //

@@ -1,0 +1,137 @@
+// wpo-page-title
+.wpo-page-title {
+	background: $theme-primary-color-s2;
+	min-height: 400px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	z-index: 1;
+	overflow: hidden;
+
+	@media(max-width: 767px) {
+		min-height: 270px;
+	}
+
+	.shape-1 {
+		position: absolute;
+		z-index: -1;
+		right: 0;
+		top: 0;
+
+		img {
+			max-width: 250px;
+
+			@include media-query(1199px) {
+				max-width: 210px;
+			}
+
+			@include media-query(767px) {
+				max-width: 170px;
+			}
+
+			@include media-query(575px) {
+				max-width: 120px;
+			}
+		}
+	}
+
+	.shape-2 {
+		position: absolute;
+		z-index: -1;
+		left: 0;
+		bottom: 0;
+
+		img {
+			max-width: 250px;
+
+			@include media-query(1199px) {
+				max-width: 210px;
+			}
+
+			@include media-query(767px) {
+				max-width: 170px;
+			}
+
+			@include media-query(575px) {
+				max-width: 120px;
+			}
+		}
+	}
+
+	.wpo-breadcumb-wrap {
+		text-align: center;
+
+		h2 {
+			font-weight: 500;
+			font-size: 60px;
+			line-height: 57px;
+			color: $heading-color;
+			margin-bottom: 10px;
+			text-transform: capitalize;
+
+			@media(max-width: 767px) {
+				font-size: 40px;
+				line-height: 50px;
+				margin-bottom: 10px;
+			}
+		}
+
+		ol {
+			padding-left: 0;
+			margin-bottom: 0;
+
+			li {
+				display: inline-block;
+				padding: 0px 15px;
+				color: $text-color;
+				position: relative;
+				font-size: 20px;
+
+				@media(max-width:767px) {
+					font-size: 17px;
+				}
+
+				@media(max-width:575px) {
+					padding: 0 10px;
+				}
+
+				&:after {
+					content: "";
+					position: absolute;
+					right: -5px;
+					top: 50%;
+					transform: translateY(-50%);
+					width: 5px;
+					height: 5px;
+					background: $text-color;
+					border-radius: 50%;
+				}
+
+				&:last-child {
+					span {
+						color: $text-color;
+					}
+
+					&:after {
+						display: none;
+					}
+				}
+
+				a {
+					color: $text-color;
+					font-size: 20px;
+					transition: all .3s;
+
+					@media(max-width:767px) {
+						font-size: 17px;
+					}
+
+					&:hover {
+						color: $theme-primary-hover-color;
+					}
+				}
+			}
+		}
+	}
+}

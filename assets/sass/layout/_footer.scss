@@ -1,0 +1,165 @@
+/*--------------------------------------------------------------
+4. wpo-footer
+--------------------------------------------------------------*/
+.wpo-site-footer {
+    background: #806967;
+
+    .wpo-upper-footer {
+        padding-top: 120px;
+
+        @media(max-width:991px) {
+            padding-top: 60px;
+        }
+    }
+
+    .footer-title-left {
+
+        h2 {
+            margin: 0;
+            color: #FFF;
+            font-size: 50px;
+            font-weight: 400;
+            line-height: normal;
+            max-width: 678px;
+
+            @media(max-width:1199px) {
+                font-size: 41px;
+            }
+
+            @media(max-width:991px) {
+                font-size: 35px;
+            }
+
+            @media(max-width:575px) {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .widget-title {
+        margin-bottom: 24px;
+
+        h3 {
+            margin: 0;
+            color: $white;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: normal;
+        }
+    }
+
+    .link-widget {
+        padding-left: 110px;
+
+        @media(max-width:1399px) {
+            padding-left: 40px;
+        }
+
+        @media(max-width:991px) {
+            padding-left: 0;
+        }
+
+        ul {
+            li {
+                color: #DDD;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: normal;
+                padding-bottom: 13px;
+
+                @media(max-width:575px) {
+                    font-size: 16px;
+                    line-height: 30px;
+                    padding-bottom: 8px;
+                }
+
+                a {
+                    color: #DDD;
+                    transition: all ease-in-out .4s;
+
+                    &:hover {
+                        text-decoration: underline;
+                        color: #ddd;
+                    }
+                }
+
+                &:last-child {
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+
+    .wpo-lower-footer {
+        margin-top: 90px;
+        border-top: 1px solid #99817F;
+        padding: 30px 0;
+
+        @media(max-width:991px) {
+            margin-top: 0;
+        }
+
+        @media(max-width: 575px) {
+            padding: 20px 0;
+        }
+
+        .copyright {
+            text-align: left;
+            display: block;
+            margin: 0;
+            color: $white;
+            font-weight: 500;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: normal;
+
+            @media (max-width:991px) {
+                text-align: center;
+            }
+
+            @media (max-width:575px) {
+                font-size: 16px;
+            }
+
+            a {
+                color: $white;
+            }
+        }
+
+        .links {
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            gap: 25px;
+
+            @media (max-width:991px) {
+                justify-content: center;
+                margin-top: 20px;
+            }
+
+            @media(max-width: 575px) {
+                gap: 15px;
+            }
+
+            li {
+                a {
+                    font-size: 17px;
+                    color: $white;
+                    transition: all ease .4s;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 991px) {
+        .wpo-upper-footer .col {
+            margin-bottom: 60px;
+        }
+    }
+
+    @media (max-width: 767px) {
+        .wpo-upper-footer .col {
+            margin-bottom: 40px;
+        }
+    }
+}

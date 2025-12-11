@@ -1,0 +1,353 @@
+/*==========================================
+14. wpo-team-single
+===========================================*/
+.team-pg-area {
+    .container-fluid {
+        max-width: 1700px;
+        margin: 0 auto;
+    }
+}
+
+.team-info-img {
+    padding: 25px;
+    box-shadow: 0px 6px 20.1px 4.9px rgba(176, 191, 238, .12);
+
+    @media(max-width:991px) {
+        margin-bottom: 40px;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.team-info-text h2 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-info-text {
+    box-shadow: 0px 6px 20.1px 4.9px rgba(176, 191, 238, .12);
+    padding: 58px 50px;
+
+    @media (max-width:1399px) {
+        padding: 58px 30px;
+    }
+
+    ul {
+        li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 10px;
+
+            span {
+                text-align: left;
+                width: 40%;
+                color: $black;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 62px;
+
+
+                @media (max-width:1399px) {
+                    width: 35%;
+                    line-height: 40px;
+                    font-size: 20px;
+                }
+
+                @media (max-width:1199px) {
+                    font-size: 18px;
+                    line-height: 30px;
+                }
+
+                @media (max-width:575px) {
+                    font-size: 16px;
+                    line-height: 35px;
+                }
+
+                &:last-child {
+                    width: 60%;
+                    color: #767676;
+                    font-size: 20px;
+                    font-weight: 400;
+
+                    @media (max-width:1399px) {
+                        width: 70%;
+                        font-size: 18px;
+                    }
+
+                    @media (max-width:1199px) {
+                        font-size: 18px;
+                    }
+
+                    @media (max-width:575px) {
+                        font-size: 16px;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
+
+.at-progress {
+    box-shadow: 0px 5px 15px 0px rgba(62, 65, 159, 0.1);
+    padding: 40px 0;
+
+    @media(max-width:991px) {
+        padding-bottom: 0;
+    }
+}
+
+.team-info-text {
+    h2 {
+        font-size: 80px;
+        font-weight: 400;
+        color: #1d2327;
+        margin-top: 0;
+        margin-bottom: 60px;
+        text-align: center;
+        background: #F9F9F9;
+        padding: 20px;
+
+        @media (max-width:1199px) {
+            font-size: 60px;
+            margin-bottom: 35px;
+        }
+
+        @media (max-width:575px) {
+            font-size: 40px;
+        }
+    }
+}
+
+.team-info-wrap ul {
+    padding-left: 0;
+}
+
+.exprience-wrap p {
+    color: $text-color;
+}
+
+.exprience-wrap {
+
+    p {
+        margin: 0;
+        color: $text-color;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 40px;
+
+        @media (max-width:1199px) {
+            font-size: 18px;
+            line-height: 30px;
+        }
+
+        span {
+            color: $text-color;
+            font-size: 40px;
+
+            @media (max-width:1399px) {
+                font-size: 34px;
+            }
+        }
+    }
+}
+
+.education-area {
+    max-width: 800px;
+}
+
+.education-area ul {
+    list-style: none;
+}
+
+.education-area ul li {
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.ex-wiget {
+    padding-bottom: 60px;
+
+    ul {
+        list-style: none;
+
+        li {
+            color: $text-color;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            margin-bottom: 20px;
+
+            @media (max-width:1199px) {
+                font-size: 18px;
+                margin-bottom: 10px;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.ex-wiget h2 {
+    font-size: 60px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 30px;
+
+    @media (max-width:1199px) {
+        font-size: 50px;
+    }
+
+    @media (max-width:575px) {
+        font-size: 39px;
+    }
+}
+
+.wpo-contact-area .quote-form {
+    padding-left: 0;
+    margin-left: -10px;
+}
+
+.wpo-contact-area {
+    background: url(../images/contact-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 0;
+    padding: 120px 0;
+    position: relative;
+    z-index: 1;
+
+    @media (max-width:991px) {
+        padding: 90px 20px;
+    }
+
+    @media (max-width:767px) {
+        padding: 60px 10px;
+    }
+
+    &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(69, 55, 54, 0.40);
+        z-index: -1;
+    }
+
+    .quote-form {
+        max-width: 940px;
+        margin: 0 auto;
+        padding: 60px 50px 30px;
+        background-color: #fff;
+
+        @media (max-width:991px) {
+            padding: 40px 30px;
+        }
+
+        @media (max-width:575px) {
+            padding: 30px 10px;
+        }
+    }
+
+    .team-btn {
+        margin-top: 20px;
+
+        button {
+            border-radius: 0;
+            padding: 20px 60px;
+
+            @media (max-width:767px) {
+                padding: 12px 35px;
+            }
+        }
+    }
+}
+
+.wpo-contact-area .quote-form .form-control {
+    height: 55px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 20px;
+    padding: 15px;
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: $theme-primary-color;
+    }
+}
+
+.wpo-contact-area .quote-form textarea.form-control {
+    height: 125px;
+}
+
+.half-col {
+    float: left;
+    width: 50%;
+    padding: 0 10px 5px;
+}
+
+.full-col {
+    padding: 0 10px 5px;
+}
+
+.exprience-area {
+    padding-top: 60px;
+}
+
+@media(max-width: 767px) {
+    .team-info-text {
+        padding: 30px 20px;
+    }
+
+    .team-info-img {
+        padding: 15px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .custom-grid {
+        float: left;
+        width: 50%;
+    }
+
+    .exprience-area {
+        padding-top: 40px;
+    }
+
+    .ex-wiget {
+        padding-bottom: 40px;
+    }
+
+}
+
+@media(max-width: 575px) {
+    .half-col {
+        float: none;
+        width: 100%;
+    }
+
+    .lawyer-about.pt-150 {
+        padding-top: 100px;
+    }
+}
+
+@media(max-width: 375px) {
+    .custom-grid {
+        float: none;
+        width: 100%;
+    }
+}

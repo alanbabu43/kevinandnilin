@@ -1,0 +1,145 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Theme Name:   Bohu - Wedding & Wedding Planner HTML Template
+Version:        1.0.0
+-------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+1. General
+	1.1 Theme Reset Style
+	1.2 Global Elements
+
+2. header
+	2.1 navigation 
+
+3. content
+	3.1 wpo-hero-slider
+	3.2 wpo-quote-section
+	3.3 wpo-couple-section
+	3.4 wpo-story-section
+	3.5 wpo-contact-section
+	3.6 wpo-event-sectionn
+	3.7 wpo-portfolio-section
+
+4. wpo-footer
+
+5. Home-style-2
+   5.1 wpo-wedding-date
+   5.2 wpo-couple-section-s2
+   5.3 wpo-story-section-s2
+   5.4 wpo-contact-section-s2
+   5.5 wpo-portfolio-section-s2
+   5.6 wpo-event-section-s2
+
+6. Home-style-3
+   6.1 wpo-quote-section-s3
+   6.2 wpo-couple-section-s3
+   6.3 wpo-portfolio-section-s3
+   6.4 wpo-contact-section-s3
+   6.5 wpo-story-section-s3
+
+7. Home-style-4
+   7.1 wpo-about-section
+   7.2 wpo-quote-section-s3
+   7.3 wpo-video-section
+   7.4 wpo-service-section
+   7.5 wpo-portfolio-section-s4
+   7.6 wpo-testimonial-section
+   7.7 wpo-team-section
+   7.8 wpo-pricing-section
+   7.9 wpo-fun-fact-section
+   7.10 wpo-product-section
+   7.11 wpo-partners-section
+
+8. Home-style-5
+   8.1 wpo-quote-section-s4
+   8.2 wpo-portfolio-section-s5
+   8.3 wpo-testimonial-section-s2
+   8.4 wpo-fun-fact-section-s2
+   8.5 wpo-team-section-s2
+
+9. service-single-page
+
+10. shop-page
+
+11. shop-single-page
+
+12. cart-page-style
+
+13. checkout-page-style
+
+14. wpo-team-single
+
+15. contact-page
+
+16. blog-pg-section
+
+17. blog-single-section
+
+18. coming-soon-section
+
+19. wpo-invitation-area
+
+20. wpo-portfolio-single-section
+
+21. error-404-section
+
+
+----------------------------------------------------------------*/
+
+/*---------------------------------------------------------------
+1. General
+----------------------------------------------------------------*/
+
+// helpers
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// base
+@import "base/base";
+
+
+// components
+@import "components/section-title";
+@import "components/buttons";
+@import "components/form";
+@import "components/social-links";
+@import "components/page-title";
+@import "components/preloader";
+@import "components/blog-sidebar";
+@import "components/shop-sidebar";
+@import "components/pagination";
+@import "components/services-sidber";
+
+// layout
+@import "layout/header";
+@import "layout/hero-slider";
+@import "layout/footer";
+
+// components
+@import "components/sticky-header";
+
+
+// page
+@import "page/home-default";
+@import "page/_home-style2";
+@import "page/_home-style3";
+@import "page/_home-style4";
+@import "page/_home-style5";
+@import "page/_service-single";
+@import "page/_shop";
+@import "page/_shop-single";
+@import "page/_cart";
+@import "page/_checkout";
+@import "page/_team-single";
+@import "page/_contact";
+@import "page/_blog";
+@import "page/_blog-single";
+@import "page/_coming";
+@import "page/_invitation";
+@import "page/_portfolio-single";
+@import "page/_error-404";
